@@ -1,0 +1,26 @@
+.weather-card {
+  width: 91px;
+  outline: 1px solid red;
+}
+
+.weather-card__weekday {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: uppercase;
+  color: #e4ffdd;
+}
+
+.weather-card__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-card__pict svg {
+    fill: red;
+}
